@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body,
+html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+
+/* Barra de navegación */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+    height: 10%;
+    /* Ocupa el 10% de la altura de la ventana */
+}
+
+#icon  {
+    width: 30px;
+}
+
+nav .nav-buttons {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-buttons li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    background-image: url("../Pic/ApoloZ.png");
+    background-position: center;
+}
+
+section {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 0.85); /* Ajusta el color y la opacidad según lo desees */
+    backdrop-filter: blur(8px); /* Este es el efecto de desenfoque que da la apariencia de cristal */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Agrega un borde suave para mayor realismo */
+}
+
+
+.container {
+    perspective: 140px;
+    width: 400px;
+    height: 150px;
+    position: relative;
+}
+
+.tarjeta {
+    width: 50px;
+    height: 80px;
+    background-color: #442222;
+    font-size: 40px;
+    position: absolute;
+    top: 35px;
+    left: 176px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    animation: Carrusel 50s linear infinite;
+}
+
+@keyframes Carrusel {
+    from {
+        transform: rotateY(360deg) translateZ(110px);
+        z-index: 10;
+    }
+
+    25% {
+        z-index: 5;
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    75% {
+        z-index: 5;
+    }
+
+    to {
+        transform: rotateX(0deg) translateZ(110px) rotateX(0deg);
+        z-index: 10;
+    }
+
+}
+
+
+#img1 {
+    background-image: url(../Pic/img1.png);
+    background-size: cover;
+}
+
+#img1:hover {
+    box-shadow: 0px 0px 10px yellow;
+}
+
+
+#img2 {
+    background-image: url(../Pic/img2.png);
+    background-size: cover;
+    animation-delay: -10s;
+}
+
+#img2:hover {
+    box-shadow: 0px 0px 10px rgb(225, 0, 255);
+}
+
+#img3 {
+    background-image: url(../Pic/img3.png);
+    background-size: cover;
+    animation-delay: -20s;
+}
+
+#img3:hover {
+    box-shadow: 0px 0px 10px rgb(0, 102, 255);
+}
+
+
+#img4 {
+    background-image: url(../Pic/img4.png);
+    background-size: cover;
+    animation-delay: -30s;
+}
+
+#img4:hover {
+    box-shadow: 0px 0px 10px rgb(43, 5, 44);
+}
+
+
+#img5 {
+    background-image: url(../Pic/img5.png);
+    background-size: cover;
+    animation-delay: -40s;
+}
+
+
+#img5:hover {
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+
+
+footer {
+    text-align: end;
+    padding: 40px 10px 0 0;
+    background-color: #333;
+    color: white;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: cursive;
+}
