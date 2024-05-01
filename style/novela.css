@@ -1,0 +1,134 @@
+.contenidoLista{
+    background-color: #494f56bc;
+    backdrop-filter: blur(4px);
+    height: 95%;
+    width: 20%;
+    border-radius: 4px;
+    text-align: center;
+    color: #f8f8f8;
+    border: 1px solid #ccc;
+}
+.contenido{
+    width: 70%;
+    height: 90%;
+    border-radius: 25px;
+    background-color: #494f56bc;
+    backdrop-filter: blur(4px);
+    padding: 10px;
+}
+/*barraBusqueda*/
+.barraBusqueda{
+    height: 10%;
+}
+/* Estilos del contenedor */
+.scroll-container {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #17141a70 #f3f3f317;
+}
+.temas{
+    width: 100%;
+    height: 90%;
+    border-radius: 4px;
+}
+
+/* Estilo de la barra de desplazamiento para navegadores webkit como Chrome */
+.scroll-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #0d0636;
+    border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background-color: #f3f3f3;
+}
+
+/* Contenido para el scroll infinito */
+.content {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    /* Ajusta el color y la opacidad según lo desees */
+    backdrop-filter: blur(8px);
+    /* Este es el efecto de desenfoque que da la apariencia de cristal */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Agrega un borde suave para mayor realismo */
+}
+
+/* Estilos para el contenedor libro */
+#libro {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Estilos para las secciones */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Estilos para la barra de búsqueda */
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para la lista ul con clase lista */
+.lista{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    list-style-type: disc; /* Establece un estilo de lista con puntos */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el espacio interno predeterminado */
+    line-height: 1.5; /* Altura de línea para mayor legibilidad */
+}
+
+
+/* Estilos para los elementos de la lista li */
+.lista li {
+    margin-left: 20px; /* Espacio desde la izquierda para los elementos de la lista */
+    padding-top: 5px;
+    padding-bottom: 5px; /* Espacio debajo de cada elemento de la lista */
+}
+
+.lista li:hover{
+    color: #0d0636;
+}
+
+.HeaderList{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+.HeaderList:hover{
+    color: #39075e;
+}

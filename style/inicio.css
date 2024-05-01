@@ -1,51 +1,4 @@
-* {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
 
-/* Estilos generales */
-body,
-html {
-    font-family: Arial, sans-serif;
-    height: 100%;
-}
-
-
-/* Barra de navegación */
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: #333;
-    height: 10%;
-    /* Ocupa el 10% de la altura de la ventana */
-}
-
-#icon  {
-    width: 30px;
-}
-
-nav .nav-buttons {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav .nav-buttons li a {
-    color: white;
-    text-decoration: none;
-}
-
-main {
-    display: flex;
-    width: 100%;
-    height: 80%;
-    justify-content: center;
-    background-image: url("../Pic/ApoloZ.png");
-    background-position: center;
-}
 
 section {
     height: 100%;
@@ -107,12 +60,12 @@ section {
 
 
 #img1 {
-    background-image: url(../Pic/img1.png);
+    background-image: url(../Pic/cardLogo.png);
     background-size: cover;
 }
 
 #img1:hover {
-    box-shadow: 0px 0px 10px yellow;
+    box-shadow: 0px 0px 10px rgb(0, 55, 255);
 }
 
 
@@ -160,14 +113,3 @@ section {
 }
 
 
-footer {
-    text-align: end;
-    padding: 40px 10px 0 0;
-    background-color: #333;
-    color: white;
-    height: 10%;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-family: cursive;
-}
