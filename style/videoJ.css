@@ -21,7 +21,7 @@
 
 /* Contenedor del carrusel */
 .carousel-container {
-    width: 80%;
+    width: 1096px;
     height: 88%;
     overflow: hidden;
     /* Oculta el contenido que sale de las dimensiones */

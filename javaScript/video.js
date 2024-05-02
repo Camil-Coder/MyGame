@@ -6,7 +6,7 @@ let index = 0;
 
 // Actualiza la posición del carrusel y el indicador de diapositiva actual
 function updateCarousel() {
-    const offset = index * -1097; // Mueve el carrusel según la diapositiva
+    const offset = index * -1096; // Mueve el carrusel según la diapositiva
     carousel.style.transform = `translateX(${offset}px)`;
     
     // Actualiza el indicador de diapositiva actual
