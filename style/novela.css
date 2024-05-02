@@ -1,4 +1,4 @@
-.contenidoLista{
+.contenidoLista {
     background-color: #494f56bc;
     backdrop-filter: blur(4px);
     height: 95%;
@@ -8,7 +8,8 @@
     color: #f8f8f8;
     border: 1px solid #ccc;
 }
-.contenido{
+
+.contenido {
     width: 70%;
     height: 90%;
     border-radius: 25px;
@@ -16,34 +17,16 @@
     backdrop-filter: blur(4px);
     padding: 10px;
 }
+
 /*barraBusqueda*/
-.barraBusqueda{
+.barraBusqueda {
     height: 10%;
 }
-/* Estilos del contenedor */
-.scroll-container {
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: #17141a70 #f3f3f317;
-}
-.temas{
+
+.temas {
     width: 100%;
     height: 90%;
     border-radius: 4px;
-}
-
-/* Estilo de la barra de desplazamiento para navegadores webkit como Chrome */
-.scroll-container::-webkit-scrollbar {
-    width: 8px;
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-    background-color: #0d0636;
-    border-radius: 4px;
-}
-
-.scroll-container::-webkit-scrollbar-track {
-    background-color: #f3f3f3;
 }
 
 /* Contenido para el scroll infinito */
@@ -98,30 +81,36 @@ p {
 }
 
 /* Estilos para la lista ul con clase lista */
-.lista{
+.lista {
     background-color: transparent;
     display: flex;
     flex-direction: column;
     height: auto;
-    list-style-type: disc; /* Establece un estilo de lista con puntos */
-    margin: 0; /* Elimina el margen predeterminado */
-    padding: 0; /* Elimina el espacio interno predeterminado */
-    line-height: 1.5; /* Altura de línea para mayor legibilidad */
+    list-style-type: disc;
+    /* Establece un estilo de lista con puntos */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding: 0;
+    /* Elimina el espacio interno predeterminado */
+    line-height: 1.5;
+    /* Altura de línea para mayor legibilidad */
 }
 
 
 /* Estilos para los elementos de la lista li */
 .lista li {
-    margin-left: 20px; /* Espacio desde la izquierda para los elementos de la lista */
+    margin-left: 20px;
+    /* Espacio desde la izquierda para los elementos de la lista */
     padding-top: 5px;
-    padding-bottom: 5px; /* Espacio debajo de cada elemento de la lista */
+    padding-bottom: 5px;
+    /* Espacio debajo de cada elemento de la lista */
 }
 
-.lista li:hover{
+.lista li:hover {
     color: #0d0636;
 }
 
-.HeaderList{
+.HeaderList {
     height: 10%;
     display: flex;
     align-items: center;
@@ -129,6 +118,6 @@ p {
     border: 1px solid #ccc;
 }
 
-.HeaderList:hover{
+.HeaderList:hover {
     color: #39075e;
 }

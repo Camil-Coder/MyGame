@@ -1,0 +1,41 @@
+#body{
+    font-family: Arial,sans-serif;
+}
+
+#fondo{
+    background-image: url(../Pic/Zomibies.png);
+}
+
+.imgInicio{
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+
+#container {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.imagen,
+.contenido {
+    height: 500px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.btnescarru {
+    box-shadow: none;
+    color: #122e59;
+}
+
+.btnescarru:hover {
+    background-color: transparent;
+}
+

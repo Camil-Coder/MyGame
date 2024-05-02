@@ -90,3 +90,24 @@ footer {
     width: 100%;
     font-family: cursive;
 }
+
+/* Estilos del contenedor */
+.scroll-container {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #17141a70 #f3f3f317;
+}
+
+/* Estilo de la barra de desplazamiento para navegadores webkit como Chrome */
+.scroll-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #0d0636;
+    border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background-color: #f3f3f3;
+}
