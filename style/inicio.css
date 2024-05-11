@@ -70,7 +70,7 @@ section {
 
 
 #img2 {
-    background-image: url(../Pic/img2.png);
+    background-image: url(../Pic/1.jpg);
     background-size: cover;
     animation-delay: -10s;
 }
@@ -80,7 +80,7 @@ section {
 }
 
 #img3 {
-    background-image: url(../Pic/img3.png);
+    background-image: url(../Pic/2.jpg);
     background-size: cover;
     animation-delay: -20s;
 }
@@ -91,8 +91,8 @@ section {
 
 
 #img4 {
-    background-image: url(../Pic/img4.png);
-    background-size: cover;
+    background-image: url(../Pic/3.jpg);
+    background-size: 100% 100%;
     animation-delay: -30s;
 }
 
@@ -102,7 +102,7 @@ section {
 
 
 #img5 {
-    background-image: url(../Pic/img5.png);
+    background-image: url(../Pic/4.jpg);
     background-size: cover;
     animation-delay: -40s;
 }
